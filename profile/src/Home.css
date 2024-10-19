@@ -1,0 +1,40 @@
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px;
+    text-align: center; 
+    margin-top: 150px;
+  }
+  
+  .header {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .content {
+    max-width: 600px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    background-color: rgb(255, 255, 255);
+  }
+  
+  p {
+    font-size: 1.2em; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .header {
+      font-size: 1.5em; 
+    }
+  
+    p {
+      font-size: 1em; 
+    }
+  }
+  

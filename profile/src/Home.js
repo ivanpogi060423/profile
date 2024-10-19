@@ -1,10 +1,15 @@
 import React from 'react';
+import './Home.css';
+
 const Home = () => {
-return (
-<div>
-<h2>Home</h2>
-<p>Welcome to the Home page</p>
-</div>
-);
-}
+  return (
+    <div className="box-container">
+      <header className="header">Welcome to My Profile!</header>
+      <div className="content">
+        <p>Get started by navigating through our navigation bar!</p>
+      </div>
+    </div>
+  );
+};
+
 export default Home;

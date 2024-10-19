@@ -1,0 +1,23 @@
+.bg-custom-light {
+    background-color: #d3d3d3; /* Light gray background */
+  }
+
+.navbar-brand {
+    color: #1100ff; /* Default color black */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+.navbar-brand-hover {
+    color: #ff0000; /* Default color black */
+    text-decoration: dashed;    
+}
+
+/* Hover effect on links */
+  .nav-link-hover {
+    color: #000; /* Default color black */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-link-hover:hover {
+    color: #007bff; /* Change to blue on hover */
+    text-decoration: underline; /* Optional underline effect */
+  }
